@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcase>
+    <step type="given">a user is on a Maintenance Profile record</step>
+    <step type="when">the user clicks Edit</step>
+    <step type="and">the user selects a Floating Schedule Type</step>
+    <step type="and">the user clicks Save</step>
+    <step type="and">the user reloads the page</step>
+    <step type="then">the “Floating” option is visibly selected</step>
+</testcase>

@@ -1,0 +1,1218 @@
+<strk-st-maintenance-profile
+  data-data-rendering-service-uid="202"
+  data-aura-rendered-by="462:0"
+  strk-stmaintenanceprofile_stmaintenanceprofile-host=""
+  class="strkStMaintenanceProfileView"
+  data-aura-class="strkStMaintenanceProfileView"
+  ><div strk-stmaintenanceprofile_stmaintenanceprofile="" class="beta-flag-container">
+    <c-st-beta-bar strk-stmaintenanceprofile_stmaintenanceprofile="" strk-stbetabar_stbetabar-host=""
+      ><div class="slds-p-top_xx-small slds-p-bottom_xx-small" strk-stbetabar_stbetabar="">
+        <div
+          class="st-container"
+          strk-stbetabar_stbetabar=""
+          id="betaBanner-118"
+          style="background-color: rgb(0, 132, 134); border: 1px solid rgb(0, 132, 134); width: 100%"
+        >
+          <div class="slds-align_absolute-center" strk-stbetabar_stbetabar="" id="betaColorBar-118">
+            <div class="st-text-area" strk-stbetabar_stbetabar="" id="betaText-118">Beta Feature</div>
+          </div>
+        </div>
+      </div></c-st-beta-bar
+    >
+  </div>
+  <c-st-live-refresh-poller
+    strk-stmaintenanceprofile_stmaintenanceprofile=""
+    strk-stliverefreshpoller_stliverefreshpoller-host=""
+  ></c-st-live-refresh-poller>
+  <div
+    strk-stmaintenanceprofile_stmaintenanceprofile=""
+    class="maintenance-profile-root"
+    data-id="maintenanceProfileForm"
+  >
+    <lightning-card strk-stmaintenanceprofile_stmaintenanceprofile="" lwc-7eubp5ml88f-host=""
+      ><article lwc-7eubp5ml88f="" class="slds-card" part="card">
+        <div lwc-7eubp5ml88f="" class="slds-card__header slds-grid">
+          <header lwc-7eubp5ml88f="" class="slds-media slds-media_center slds-has-flexi-truncate" part="header">
+            <div lwc-7eubp5ml88f="" class="slds-media__body" part="title">
+              <h2 lwc-7eubp5ml88f="" class="slds-card__header-title">
+                <span lwc-7eubp5ml88f="" class="slds-truncate"
+                  ><slot lwc-7eubp5ml88f="" name="title"
+                    ><div strk-stmaintenanceprofile_stmaintenanceprofile="" slot="title">
+                      <div
+                        strk-stmaintenanceprofile_stmaintenanceprofile=""
+                        class="slds-grid slds-grid_vertical-align-center"
+                      >
+                        <div strk-stmaintenanceprofile_stmaintenanceprofile="" class="slds-col">
+                          <lightning-icon
+                            strk-stmaintenanceprofile_stmaintenanceprofile=""
+                            class="slds-media__figure slds-icon-standard-maintenance-plan slds-icon_container"
+                            icon-name="standard:maintenance_plan"
+                            lwc-4897l11qtae-host=""
+                            ><span
+                              lwc-4897l11qtae=""
+                              style="
+                                --sds-c-icon-color-background: var(--slds-c-icon-color-background, rgb(16, 124, 173));
+                              "
+                              part="boundary"
+                              ><lightning-primitive-icon
+                                lwc-4897l11qtae=""
+                                exportparts="icon"
+                                size="medium"
+                                variant="inverse"
+                                lwc-28b3ttd81nt-host=""
+                                ><svg
+                                  focusable="false"
+                                  aria-hidden="true"
+                                  viewBox="0 0 1000 1000"
+                                  part="icon"
+                                  lwc-28b3ttd81nt=""
+                                  data-key="maintenance_plan"
+                                  class="slds-icon"
+                                >
+                                  <g lwc-28b3ttd81nt="">
+                                    <path
+                                      d="M657 340h79c9 0 17-8 17-17 0-4-2-9-5-12L635 200c-3-3-7-5-11-5-9 0-17 8-17 17v79c2 27 23 48 50 49zm70 70H605c-40 0-72-32-73-72V218c1-12-8-22-20-23H316c-40 0-72 32-73 72v457c0 40 33 72 73 72h362c40 0 72-32 73-72V435c1-13-10-25-24-25zm-69 308c-8 8-18 12-30 12-11 0-22-4-30-12L460 580a106 106 0 01-141-130c1-4 6-5 10-2l60 60c4 5 12 5 16 1l1-1 42-42c5-4 5-12 1-16l-1-1-60-60c-2-2-2-6 0-9l2-1c10-2 21-4 31-4 59 0 106 47 107 106l-1 12c-1 10-4 19-7 28l138 139c16 16 16 42 0 58z"
+                                      lwc-28b3ttd81nt=""
+                                    ></path>
+                                  </g></svg></lightning-primitive-icon></span
+                          ></lightning-icon>
+                        </div>
+                        <div class="slds-col" strk-stmaintenanceprofile_stmaintenanceprofile="">
+                          <span class="slds-text-body_regular" strk-stmaintenanceprofile_stmaintenanceprofile=""
+                            >Maintenance Profile</span
+                          ><span
+                            class="slds-page-header__title slds-truncate"
+                            strk-stmaintenanceprofile_stmaintenanceprofile=""
+                            >Edit Maintenance Profile</span
+                          >
+                        </div>
+                      </div>
+                    </div></slot
+                  ></span
+                >
+              </h2>
+            </div>
+            <div lwc-7eubp5ml88f="" class="slds-no-flex" part="actions">
+              <slot lwc-7eubp5ml88f="" name="actions"
+                ><div
+                  strk-stmaintenanceprofile_stmaintenanceprofile=""
+                  data-id="actions"
+                  slot="actions"
+                  style="display: flex"
+                >
+                  <lightning-button
+                    strk-stmaintenanceprofile_stmaintenanceprofile=""
+                    class="slds-m-right_xx-small"
+                    variant="neutral"
+                    lwc-40a585din3p-host=""
+                    ><button
+                      lwc-40a585din3p=""
+                      class="slds-button slds-button_neutral"
+                      aria-disabled="false"
+                      title="Cancel"
+                      type="button"
+                      part="button"
+                      kx-scope="button-neutral"
+                      kx-type="ripple"
+                    >
+                      Cancel
+                    </button></lightning-button
+                  >
+                  <div strk-stmaintenanceprofile_stmaintenanceprofile="">
+                    <lightning-button
+                      strk-stmaintenanceprofile_stmaintenanceprofile=""
+                      class="slds-m-right_xx-small"
+                      data-id="save-and-new"
+                      variant="neutral"
+                      lwc-40a585din3p-host=""
+                      ><button
+                        lwc-40a585din3p=""
+                        class="slds-button slds-button_neutral"
+                        aria-disabled="false"
+                        title="Save &amp; New"
+                        type="button"
+                        part="button"
+                        kx-scope="button-neutral"
+                        kx-type="ripple"
+                      >
+                        Save &amp; New
+                      </button></lightning-button
+                    ><lightning-button
+                      strk-stmaintenanceprofile_stmaintenanceprofile=""
+                      data-id="save"
+                      data-test-id="e2e-save"
+                      variant="brand"
+                      lwc-40a585din3p-host=""
+                      ><button
+                        lwc-40a585din3p=""
+                        class="slds-button slds-button_brand slds-kx-is-animating-from-click"
+                        aria-disabled="false"
+                        title="Save"
+                        type="button"
+                        part="button"
+                        kx-scope="button-brand"
+                        kx-type="ripple"
+                        style=""
+                      >
+                        Save
+                      </button></lightning-button
+                    >
+                  </div>
+                </div></slot
+              >
+            </div>
+          </header>
+        </div>
+        <div lwc-7eubp5ml88f="" class="slds-card__body" part="body">
+          <slot lwc-7eubp5ml88f=""
+            ><div strk-stmaintenanceprofile_stmaintenanceprofile="" class="slds-m-around_medium">
+              <div
+                strk-stmaintenanceprofile_stmaintenanceprofile=""
+                class="slds-clearfix detail-panel-root slds-card slds-size_9-of-12"
+              >
+                <div strk-stmaintenanceprofile_stmaintenanceprofile="" class="slds-section slds-is-open">
+                  <h3
+                    class="slds-slds-section__title slds-theme_shade slds-p-vertical_x-small"
+                    strk-stmaintenanceprofile_stmaintenanceprofile=""
+                  >
+                    <span
+                      class="slds-text-title_bold slds-truncate slds-p-horizontal_small"
+                      strk-stmaintenanceprofile_stmaintenanceprofile=""
+                      title="Maintenance Profile Setup"
+                      >Maintenance Profile Setup</span
+                    >
+                  </h3>
+                  <div
+                    strk-stmaintenanceprofile_stmaintenanceprofile=""
+                    class="slds-section__content"
+                    aria-hidden="false"
+                  >
+                    <div strk-stmaintenanceprofile_stmaintenanceprofile="" class="slds-m-bottom_medium">
+                      <lightning-input
+                        strk-stmaintenanceprofile_stmaintenanceprofile=""
+                        data-id="name"
+                        data-test-id="e2e-name"
+                        class="slds-form-element"
+                        lwc-66unc5l95ad-host=""
+                        ><lightning-primitive-input-simple
+                          lwc-66unc5l95ad=""
+                          exportparts="input-text, input-container, input, required"
+                          lwc-enmikoh2qu-host=""
+                          variant="standard"
+                          ><div lwc-enmikoh2qu="" part="input-text" populated="">
+                            <label
+                              lwc-enmikoh2qu=""
+                              class="slds-form-element__label slds-no-flex"
+                              for="input-95"
+                              part="label"
+                              ><abbr class="slds-required" part="required" lwc-enmikoh2qu="" title="required">*</abbr
+                              >Name<slot lwc-enmikoh2qu="" name="label-end"
+                                ><slot lwc-66unc5l95ad="" name="label-end" slot="label-end"></slot></slot></label
+                            ><lightning-helptext lwc-enmikoh2qu="" lwc-287jov2qseb-host=""
+                              ><div lwc-287jov2qseb="" class="slds-form-element__icon" part="help-text">
+                                <lightning-button-icon lwc-287jov2qseb="" variant="bare" lwc-485vfn4rmof-host=""
+                                  ><button
+                                    lwc-485vfn4rmof=""
+                                    class="slds-button slds-button_icon slds-button_icon-bare"
+                                    type="button"
+                                    part="button button-icon"
+                                  >
+                                    <lightning-primitive-icon
+                                      lwc-485vfn4rmof=""
+                                      exportparts="icon"
+                                      variant="bare"
+                                      lwc-gj6nt2jq8l-host=""
+                                      ><svg
+                                        focusable="false"
+                                        aria-hidden="true"
+                                        viewBox="0 0 520 520"
+                                        part="icon"
+                                        lwc-gj6nt2jq8l=""
+                                        data-key="info"
+                                        class="slds-button__icon"
+                                      >
+                                        <g lwc-gj6nt2jq8l="">
+                                          <path
+                                            d="M260 20a240 240 0 100 480 240 240 0 100-480zm0 121c17 0 30 13 30 30s-13 30-30 30-30-13-30-30 13-30 30-30zm50 210c0 5-4 9-10 9h-80c-5 0-10-3-10-9v-20c0-5 4-11 10-11 5 0 10-3 10-9v-40c0-5-4-11-10-11-5 0-10-3-10-9v-20c0-5 4-11 10-11h60c5 0 10 5 10 11v80c0 5 4 9 10 9 5 0 10 5 10 11z"
+                                            lwc-gj6nt2jq8l=""
+                                          ></path>
+                                        </g></svg></lightning-primitive-icon
+                                    ><span class="slds-assistive-text" lwc-485vfn4rmof="">Name Help Info</span
+                                    ><span class="slds-assistive-text" data-help-text="" lwc-485vfn4rmof=""
+                                      >Enter a name that will be used when referring to this Maintenance Profile.</span
+                                    >
+                                  </button></lightning-button-icon
+                                >
+                              </div></lightning-helptext
+                            >
+                            <div
+                              lwc-enmikoh2qu=""
+                              class="slds-form-element__control slds-grow"
+                              part="input-container"
+                              type="text"
+                            >
+                              <input
+                                class="slds-input"
+                                part="input"
+                                lwc-enmikoh2qu=""
+                                aria-invalid="false"
+                                id="input-95"
+                                name="Name"
+                                placeholder="Add Name"
+                                required=""
+                                type="text"
+                                aria-describedby="help-message-95"
+                              />
+                            </div>
+                          </div>
+                          <div
+                            lwc-enmikoh2qu=""
+                            class="slds-form-element__help"
+                            id="help-message-95"
+                            data-name="Name"
+                            data-help-message=""
+                            part="help-text"
+                            aria-live="polite"
+                          ></div></lightning-primitive-input-simple
+                      ></lightning-input>
+                    </div>
+                    <div strk-stmaintenanceprofile_stmaintenanceprofile="" class="slds-m-bottom_medium">
+                      <lightning-input
+                        strk-stmaintenanceprofile_stmaintenanceprofile=""
+                        data-test-id="e2e-description"
+                        data-id="description"
+                        class="slds-form-element"
+                        lwc-66unc5l95ad-host=""
+                        ><lightning-primitive-input-simple
+                          lwc-66unc5l95ad=""
+                          exportparts="input-text, input-container, input, required"
+                          lwc-enmikoh2qu-host=""
+                          variant="standard"
+                          ><div lwc-enmikoh2qu="" part="input-text" populated="">
+                            <label
+                              lwc-enmikoh2qu=""
+                              class="slds-form-element__label slds-no-flex"
+                              for="input-101"
+                              part="label"
+                              >Description<slot lwc-enmikoh2qu="" name="label-end"
+                                ><slot lwc-66unc5l95ad="" name="label-end" slot="label-end"></slot></slot></label
+                            ><lightning-helptext lwc-enmikoh2qu="" lwc-287jov2qseb-host=""
+                              ><div lwc-287jov2qseb="" class="slds-form-element__icon" part="help-text">
+                                <lightning-button-icon lwc-287jov2qseb="" variant="bare" lwc-485vfn4rmof-host=""
+                                  ><button
+                                    lwc-485vfn4rmof=""
+                                    class="slds-button slds-button_icon slds-button_icon-bare"
+                                    type="button"
+                                    part="button button-icon"
+                                  >
+                                    <lightning-primitive-icon
+                                      lwc-485vfn4rmof=""
+                                      exportparts="icon"
+                                      variant="bare"
+                                      lwc-gj6nt2jq8l-host=""
+                                      ><svg
+                                        focusable="false"
+                                        aria-hidden="true"
+                                        viewBox="0 0 520 520"
+                                        part="icon"
+                                        lwc-gj6nt2jq8l=""
+                                        data-key="info"
+                                        class="slds-button__icon"
+                                      >
+                                        <g lwc-gj6nt2jq8l="">
+                                          <path
+                                            d="M260 20a240 240 0 100 480 240 240 0 100-480zm0 121c17 0 30 13 30 30s-13 30-30 30-30-13-30-30 13-30 30-30zm50 210c0 5-4 9-10 9h-80c-5 0-10-3-10-9v-20c0-5 4-11 10-11 5 0 10-3 10-9v-40c0-5-4-11-10-11-5 0-10-3-10-9v-20c0-5 4-11 10-11h60c5 0 10 5 10 11v80c0 5 4 9 10 9 5 0 10 5 10 11z"
+                                            lwc-gj6nt2jq8l=""
+                                          ></path>
+                                        </g></svg></lightning-primitive-icon
+                                    ><span class="slds-assistive-text" lwc-485vfn4rmof="">Description Help Info</span
+                                    ><span class="slds-assistive-text" data-help-text="" lwc-485vfn4rmof=""
+                                      >Provide details about this Maintenance Profile such as when it should be
+                                      used.</span
+                                    >
+                                  </button></lightning-button-icon
+                                >
+                              </div></lightning-helptext
+                            >
+                            <div
+                              lwc-enmikoh2qu=""
+                              class="slds-form-element__control slds-grow"
+                              part="input-container"
+                              type="text"
+                            >
+                              <input
+                                class="slds-input"
+                                part="input"
+                                lwc-enmikoh2qu=""
+                                aria-invalid="false"
+                                id="input-101"
+                                name="strk__Description__c"
+                                placeholder="Add Description"
+                                type="text"
+                                aria-describedby="help-message-101"
+                              />
+                            </div>
+                          </div>
+                          <div
+                            lwc-enmikoh2qu=""
+                            class="slds-form-element__help"
+                            id="help-message-101"
+                            data-name="strk__Description__c"
+                            data-help-message=""
+                            part="help-text"
+                            aria-live="polite"
+                          ></div></lightning-primitive-input-simple
+                      ></lightning-input>
+                    </div>
+                  </div>
+                </div>
+                <div strk-stmaintenanceprofile_stmaintenanceprofile="" class="slds-section slds-is-open">
+                  <h3
+                    class="slds-slds-section__title slds-theme_shade slds-p-vertical_x-small"
+                    strk-stmaintenanceprofile_stmaintenanceprofile=""
+                  >
+                    <span
+                      class="slds-text-title_bold slds-truncate slds-p-horizontal_small"
+                      strk-stmaintenanceprofile_stmaintenanceprofile=""
+                      title="Objects Under This Profile"
+                      >Objects Under This Profile</span
+                    >
+                  </h3>
+                  <div
+                    strk-stmaintenanceprofile_stmaintenanceprofile=""
+                    class="slds-section__content"
+                    aria-hidden="false"
+                  >
+                    <div
+                      strk-stmaintenanceprofile_stmaintenanceprofile=""
+                      class="slds-m-bottom_medium"
+                      data-id="type-div"
+                    >
+                      <lightning-combobox
+                        strk-stmaintenanceprofile_stmaintenanceprofile=""
+                        data-id="type"
+                        class="slds-form-element"
+                        lwc-24on3e8rogg-host=""
+                        ><div lwc-24on3e8rogg="" part="combobox">
+                          <label
+                            lwc-24on3e8rogg=""
+                            class="slds-form-element__label"
+                            part="label"
+                            for="combobox-button-106"
+                            ><abbr class="slds-required" part="required" lwc-24on3e8rogg="" title="required">*</abbr
+                            >Maintenance Object</label
+                          >
+                          <div lwc-24on3e8rogg="" class="slds-form-element__control">
+                            <lightning-base-combobox
+                              lwc-24on3e8rogg=""
+                              exportparts="dropdown, option, input, input-button, input-button-value"
+                              disabled=""
+                              class="slds-combobox_container"
+                              lwc-4kb6kaqheak-host=""
+                              ><div lwc-4kb6kaqheak="" class="slds-combobox_container">
+                                <div
+                                  lwc-4kb6kaqheak=""
+                                  class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click"
+                                >
+                                  <div
+                                    lwc-4kb6kaqheak=""
+                                    class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right"
+                                    role="none"
+                                  >
+                                    <button
+                                      lwc-4kb6kaqheak=""
+                                      class="slds-combobox__input slds-input_faux fix-slds-input_faux slds-is-disabled slds-combobox__input-value"
+                                      id="combobox-button-106"
+                                      type="button"
+                                      aria-expanded="false"
+                                      aria-haspopup="listbox"
+                                      name="strk__Type__c"
+                                      role="combobox"
+                                      data-value="Site"
+                                      disabled=""
+                                      aria-disabled="true"
+                                      aria-label="Maintenance Object"
+                                      aria-required="true"
+                                      part="input-button"
+                                      aria-controls="dropdown-element-106"
+                                    >
+                                      <span lwc-4kb6kaqheak="" class="slds-truncate" part="input-button-value"
+                                        >Site</span
+                                      >
+                                    </button>
+                                    <div lwc-4kb6kaqheak="" class="slds-input__icon-group slds-input__icon-group_right">
+                                      <lightning-icon
+                                        lwc-4kb6kaqheak=""
+                                        class="slds-input__icon slds-input__icon_right slds-icon-utility-down slds-icon_container"
+                                        icon-name="utility:down"
+                                        lwc-4897l11qtae-host=""
+                                        ><span
+                                          lwc-4897l11qtae=""
+                                          style="
+                                            --sds-c-icon-color-background: var(
+                                              --slds-c-icon-color-background,
+                                              transparent
+                                            );
+                                          "
+                                          part="boundary"
+                                          ><lightning-primitive-icon
+                                            lwc-4897l11qtae=""
+                                            exportparts="icon"
+                                            size="xx-small"
+                                            variant=""
+                                            lwc-6qul4k2dv7m-host=""
+                                            ><svg
+                                              focusable="false"
+                                              aria-hidden="true"
+                                              viewBox="0 0 520 520"
+                                              part="icon"
+                                              lwc-6qul4k2dv7m=""
+                                              data-key="down"
+                                              class="slds-icon slds-icon-text-default slds-icon_xx-small"
+                                            >
+                                              <g lwc-6qul4k2dv7m="">
+                                                <path
+                                                  d="M83 140h354c10 0 17 13 9 22L273 374c-6 8-19 8-25 0L73 162c-7-9-1-22 10-22z"
+                                                  lwc-6qul4k2dv7m=""
+                                                ></path>
+                                              </g></svg></lightning-primitive-icon></span
+                                      ></lightning-icon>
+                                    </div>
+                                  </div>
+                                  <div
+                                    lwc-4kb6kaqheak=""
+                                    class="slds-listbox slds-listbox_vertical slds-dropdown slds-dropdown_fluid slds-dropdown_left"
+                                    id="dropdown-element-106"
+                                    data-dropdown-element=""
+                                    role="listbox"
+                                    part="dropdown overlay"
+                                    aria-label="Maintenance Object"
+                                  ></div>
+                                </div></div
+                            ></lightning-base-combobox>
+                          </div>
+                          <div
+                            lwc-24on3e8rogg=""
+                            class="slds-form-element__help"
+                            id="help-text-105"
+                            data-help-text=""
+                            role="status"
+                          ></div></div
+                      ></lightning-combobox>
+                    </div>
+                  </div>
+                </div>
+                <div strk-stmaintenanceprofile_stmaintenanceprofile="" class="slds-section slds-is-open">
+                  <h3
+                    class="slds-slds-section__title slds-theme_shade slds-p-vertical_x-small"
+                    strk-stmaintenanceprofile_stmaintenanceprofile=""
+                  >
+                    <span
+                      class="slds-text-title_bold slds-truncate slds-p-horizontal_small"
+                      strk-stmaintenanceprofile_stmaintenanceprofile=""
+                      title="Maintenance Cycles"
+                      >Maintenance Cycles</span
+                    >
+                  </h3>
+                  <div strk-stmaintenanceprofile_stmaintenanceprofile="" class="slds-p-around_medium">
+                    <c-st-schedule-type-picker strk-stmaintenanceprofile_stmaintenanceprofile=""
+                      ><c-st-base-visual-picker
+                        data-test-id="e2e-schedule-type"
+                        lwc-6k6flnkiju9-host=""
+                        style="--selection-color: rgb(0, 132, 124)"
+                        ><fieldset lwc-6k6flnkiju9="" class="slds-form-element" role="radiogroup">
+                          <legend class="slds-form-element__legend slds-form-element__label" lwc-6k6flnkiju9="">
+                            Should Jobs follow a Fixed Schedule or a Floating Schedule based on completion?
+                          </legend>
+                          <div lwc-6k6flnkiju9="" class="slds-form-element__control slds-grid visual-picker-grid">
+                            <div
+                              lwc-6k6flnkiju9=""
+                              class="slds-col slds-size_6-of-12"
+                              data-test-id="e2e-fixed-schedule"
+                            >
+                              <div lwc-6k6flnkiju9="" class="slds-visual-picker slds-visual-picker_vertical">
+                                <input
+                                  lwc-6k6flnkiju9=""
+                                  type="radio"
+                                  id="fixed-110"
+                                  name="scheduleType"
+                                  value="Fixed Schedule"
+                                /><label lwc-6k6flnkiju9="" for="fixed-110"
+                                  ><span
+                                    lwc-6k6flnkiju9=""
+                                    class="slds-visual-picker__figure slds-visual-picker__text custom-border"
+                                    ><span lwc-6k6flnkiju9=""
+                                      ><span class="slds-text-heading_small slds-m-bottom_x-small" lwc-6k6flnkiju9=""
+                                        >Fixed Schedule</span
+                                      ><span class="slds-text-title" lwc-6k6flnkiju9=""
+                                        >Jobs adhere strictly to their predefined schedule, unaffected by the completion
+                                        status of previous jobs.</span
+                                      ></span
+                                    ></span
+                                  ></label
+                                >
+                              </div>
+                            </div>
+                            <div
+                              lwc-6k6flnkiju9=""
+                              class="slds-col slds-size_6-of-12"
+                              data-test-id="e2e-floating-schedule"
+                            >
+                              <div lwc-6k6flnkiju9="" class="slds-visual-picker slds-visual-picker_vertical">
+                                <input
+                                  lwc-6k6flnkiju9=""
+                                  type="radio"
+                                  id="floating-110"
+                                  name="scheduleType"
+                                  value="Floating Schedule"
+                                /><label lwc-6k6flnkiju9="" for="floating-110"
+                                  ><span
+                                    lwc-6k6flnkiju9=""
+                                    class="slds-visual-picker__figure slds-visual-picker__text custom-border"
+                                    ><span lwc-6k6flnkiju9=""
+                                      ><span class="slds-text-heading_small slds-m-bottom_x-small" lwc-6k6flnkiju9=""
+                                        >Floating Schedule</span
+                                      ><span class="slds-text-title" lwc-6k6flnkiju9=""
+                                        >A job is scheduled only after the completion of the previous, allowing for
+                                        real-time adjustments.</span
+                                      ></span
+                                    >
+                                    <div lwc-6k6flnkiju9="" class="slds-visual-picker__text-check">
+                                      <lightning-icon
+                                        lwc-6k6flnkiju9=""
+                                        class="white-icon slds-icon-utility-check slds-icon_container"
+                                        icon-name="utility:check"
+                                        lwc-4897l11qtae-host=""
+                                        ><span
+                                          lwc-4897l11qtae=""
+                                          style="
+                                            --sds-c-icon-color-background: var(
+                                              --slds-c-icon-color-background,
+                                              transparent
+                                            );
+                                          "
+                                          part="boundary"
+                                          ><lightning-primitive-icon
+                                            lwc-4897l11qtae=""
+                                            exportparts="icon"
+                                            size="x-small"
+                                            variant="inverse"
+                                            lwc-1e39mgvor8u-host=""
+                                            ><svg
+                                              focusable="false"
+                                              aria-hidden="true"
+                                              viewBox="0 0 520 520"
+                                              part="icon"
+                                              lwc-1e39mgvor8u=""
+                                              data-key="check"
+                                              class="slds-icon slds-icon_x-small"
+                                            >
+                                              <g lwc-1e39mgvor8u="">
+                                                <path
+                                                  d="M191 425L26 259c-6-6-6-16 0-22l22-22c6-6 16-6 22 0l124 125a10 10 0 0015 0L452 95c6-6 16-6 22 0l22 22c6 6 6 16 0 22L213 425c-6 7-16 7-22 0z"
+                                                  lwc-1e39mgvor8u=""
+                                                ></path>
+                                              </g></svg></lightning-primitive-icon
+                                          ><span class="slds-assistive-text" lwc-4897l11qtae="">Selected</span></span
+                                        ></lightning-icon
+                                      >
+                                    </div></span
+                                  ></label
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </fieldset></c-st-base-visual-picker
+                      ></c-st-schedule-type-picker
+                    >
+                  </div>
+                  <c-st-alert-banner
+                    strk-stmaintenanceprofile_stmaintenanceprofile=""
+                    strk-stalertbanner_stalertbanner-host=""
+                    ><div
+                      strk-stalertbanner_stalertbanner=""
+                      class="slds-notify slds-notify_alert wrap-left"
+                      role="alert"
+                    >
+                      <span class="slds-assistive-text" strk-stalertbanner_stalertbanner="">$information</span
+                      ><lightning-icon
+                        strk-stalertbanner_stalertbanner=""
+                        class="slds-icon-top slds-icon-utility-info slds-icon_container"
+                        icon-name="utility:info"
+                        title="Information"
+                        lwc-4897l11qtae-host=""
+                        ><span
+                          lwc-4897l11qtae=""
+                          style="--sds-c-icon-color-background: var(--slds-c-icon-color-background, transparent)"
+                          part="boundary"
+                          ><lightning-primitive-icon
+                            lwc-4897l11qtae=""
+                            exportparts="icon"
+                            size="small"
+                            variant="inverse"
+                            lwc-gj6nt2jq8l-host=""
+                            ><svg
+                              focusable="false"
+                              aria-hidden="true"
+                              viewBox="0 0 520 520"
+                              part="icon"
+                              lwc-gj6nt2jq8l=""
+                              data-key="info"
+                              class="slds-icon slds-icon_small"
+                            >
+                              <g lwc-gj6nt2jq8l="">
+                                <path
+                                  d="M260 20a240 240 0 100 480 240 240 0 100-480zm0 121c17 0 30 13 30 30s-13 30-30 30-30-13-30-30 13-30 30-30zm50 210c0 5-4 9-10 9h-80c-5 0-10-3-10-9v-20c0-5 4-11 10-11 5 0 10-3 10-9v-40c0-5-4-11-10-11-5 0-10-3-10-9v-20c0-5 4-11 10-11h60c5 0 10 5 10 11v80c0 5 4 9 10 9 5 0 10 5 10 11z"
+                                  lwc-gj6nt2jq8l=""
+                                ></path>
+                              </g></svg></lightning-primitive-icon
+                          ><span class="slds-assistive-text" lwc-4897l11qtae="">Information</span></span
+                        ></lightning-icon
+                      >
+                      <h2
+                        strk-stalertbanner_stalertbanner=""
+                        class="default-message-container-width slds-var-m_x-small"
+                        style="max-width: 1000px"
+                      >
+                        <slot strk-stalertbanner_stalertbanner=""
+                          ><div
+                            strk-stmaintenanceprofile_stmaintenanceprofile=""
+                            class="slds-p-left_small banner-content"
+                          >
+                            <h2 class="slds-text-heading_small" strk-stmaintenanceprofile_stmaintenanceprofile="">
+                              Maintenance Cycles cannot be added, deleted, or reordered while applied to installed Field
+                              Assets or Sites.
+                            </h2>
+                            <p class="slds-var-m_x-small" strk-stmaintenanceprofile_stmaintenanceprofile="">
+                              Finalize this profile before applying it to an installed Field Asset or Site.
+                            </p>
+                          </div></slot
+                        >
+                      </h2>
+                    </div></c-st-alert-banner
+                  >
+                  <div
+                    strk-stmaintenanceprofile_stmaintenanceprofile=""
+                    class="slds-section__content"
+                    aria-hidden="false"
+                  >
+                    <div strk-stmaintenanceprofile_stmaintenanceprofile="" class="slds-m-bottom_large">
+                      <c-st-maintenance-cycle
+                        strk-stmaintenanceprofile_stmaintenanceprofile=""
+                        data-id="maintenanceCycleUnGrouped"
+                        strk-stmaintenancecycle_stmaintenancecycle-host=""
+                        ><div strk-stmaintenancecycle_stmaintenancecycle="" class="slds-box containerGroup">
+                          <div strk-stmaintenancecycle_stmaintenancecycle="">
+                            <div class="groupTitle" strk-stmaintenancecycle_stmaintenancecycle="">
+                              Additive Maintenance Cycles
+                            </div>
+                            <div class="groupText" strk-stmaintenancecycle_stmaintenancecycle="">
+                              When the Jobs are due within the same calendar month, their Job Tasks and other details
+                              will be combined into a single Job.
+                            </div>
+                          </div>
+                          <div strk-stmaintenancecycle_stmaintenancecycle="" class="slds-p-top_large">
+                            <c-st-maintenance-cycle-row
+                              strk-stmaintenancecycle_stmaintenancecycle=""
+                              lwc-71ftadcg0c7-host=""
+                              ><div lwc-71ftadcg0c7="" class="slds-grid slds-gutters slds-align-middle">
+                                <div lwc-71ftadcg0c7="" class="slds-col slds-size_1-of-4">
+                                  <c-st-search-records lwc-71ftadcg0c7="" strk-stsearchrecords_stsearchrecords-host=""
+                                    ><div strk-stsearchrecords_stsearchrecords="" class="slds-form-element">
+                                      <label strk-stsearchrecords_stsearchrecords="" class="slds-form-element__label"
+                                        ><abbr
+                                          class="slds-required"
+                                          strk-stsearchrecords_stsearchrecords=""
+                                          title="Required"
+                                          >*</abbr
+                                        >Job Template</label
+                                      >
+                                      <div strk-stsearchrecords_stsearchrecords="" class="slds-form-element__control">
+                                        <div
+                                          strk-stsearchrecords_stsearchrecords=""
+                                          class="slds-combobox_container slds-has-selection"
+                                        >
+                                          <div
+                                            strk-stsearchrecords_stsearchrecords=""
+                                            class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open"
+                                            role="combobox"
+                                          >
+                                            <div
+                                              strk-stsearchrecords_stsearchrecords=""
+                                              class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_left-right"
+                                              role="none"
+                                            >
+                                              <span
+                                                class="slds-icon_container slds-icon-standard-account slds-combobox__input-entity-icon"
+                                                strk-stsearchrecords_stsearchrecords=""
+                                                title="Job Template"
+                                                ><img
+                                                  class="slds-icon slds-icon_small"
+                                                  strk-stsearchrecords_stsearchrecords=""
+                                                  src="https://saas-page-64942-dev-ed.scratch.file.force.com/servlet/servlet.ImageServer?id=0158D000001W6nR&amp;oid=00D8D000001pUMn&amp;lastMod=1735012796000"
+                                                /><span
+                                                  class="slds-assistive-text"
+                                                  strk-stsearchrecords_stsearchrecords=""
+                                                  >Aerial Construction</span
+                                                ></span
+                                              ><input
+                                                strk-stsearchrecords_stsearchrecords=""
+                                                class="slds-input slds-combobox__input slds-combobox__input-value has-selection"
+                                                type="text"
+                                                aria-autocomplete="list"
+                                                aria-controls="listbox-120"
+                                                role="textbox"
+                                                readonly=""
+                                              /><button
+                                                strk-stsearchrecords_stsearchrecords=""
+                                                class="slds-button slds-button_icon slds-input__icon slds-input__icon_right"
+                                                title="Remove"
+                                                type="button"
+                                              >
+                                                <lightning-icon
+                                                  strk-stsearchrecords_stsearchrecords=""
+                                                  class="slds-button__icon slds-icon-utility-close slds-icon_container"
+                                                  icon-name="utility:close"
+                                                  lwc-4897l11qtae-host=""
+                                                  ><span
+                                                    lwc-4897l11qtae=""
+                                                    style="
+                                                      --sds-c-icon-color-background: var(
+                                                        --slds-c-icon-color-background,
+                                                        transparent
+                                                      );
+                                                    "
+                                                    part="boundary"
+                                                    ><lightning-primitive-icon
+                                                      lwc-4897l11qtae=""
+                                                      exportparts="icon"
+                                                      size="x-small"
+                                                      variant=""
+                                                      lwc-3bq099ugqsh-host=""
+                                                      ><svg
+                                                        focusable="false"
+                                                        aria-hidden="true"
+                                                        viewBox="0 0 520 520"
+                                                        part="icon"
+                                                        lwc-3bq099ugqsh=""
+                                                        data-key="close"
+                                                        class="slds-icon slds-icon-text-default slds-icon_x-small"
+                                                      >
+                                                        <g lwc-3bq099ugqsh="">
+                                                          <path
+                                                            d="M310 254l130-131c6-6 6-15 0-21l-20-21c-6-6-15-6-21 0L268 212a10 10 0 01-14 0L123 80c-6-6-15-6-21 0l-21 21c-6 6-6 15 0 21l131 131c4 4 4 10 0 14L80 399c-6 6-6 15 0 21l21 21c6 6 15 6 21 0l131-131a10 10 0 0114 0l131 131c6 6 15 6 21 0l21-21c6-6 6-15 0-21L310 268a10 10 0 010-14z"
+                                                            lwc-3bq099ugqsh=""
+                                                          ></path>
+                                                        </g></svg></lightning-primitive-icon
+                                                    ><span class="slds-assistive-text" lwc-4897l11qtae=""
+                                                      >Remove</span
+                                                    ></span
+                                                  ></lightning-icon
+                                                >
+                                              </button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div></c-st-search-records
+                                  >
+                                </div>
+                                <div lwc-71ftadcg0c7="" class="slds-col slds-size_1-of-4 slds-grid slds-align-middle">
+                                  <div lwc-71ftadcg0c7="" class="slds-form-element" style="width: 100%">
+                                    <label class="slds-form-element__label" lwc-71ftadcg0c7="">Frequency</label
+                                    ><lightning-helptext lwc-71ftadcg0c7="" lwc-287jov2qseb-host=""
+                                      ><div lwc-287jov2qseb="" class="slds-form-element__icon" part="help-text">
+                                        <lightning-button-icon lwc-287jov2qseb="" variant="bare" lwc-485vfn4rmof-host=""
+                                          ><button
+                                            lwc-485vfn4rmof=""
+                                            class="slds-button slds-button_icon slds-button_icon-bare"
+                                            type="button"
+                                            part="button button-icon"
+                                          >
+                                            <lightning-primitive-icon
+                                              lwc-485vfn4rmof=""
+                                              exportparts="icon"
+                                              variant="bare"
+                                              lwc-gj6nt2jq8l-host=""
+                                              ><svg
+                                                focusable="false"
+                                                aria-hidden="true"
+                                                viewBox="0 0 520 520"
+                                                part="icon"
+                                                lwc-gj6nt2jq8l=""
+                                                data-key="info"
+                                                class="slds-button__icon"
+                                              >
+                                                <g lwc-gj6nt2jq8l="">
+                                                  <path
+                                                    d="M260 20a240 240 0 100 480 240 240 0 100-480zm0 121c17 0 30 13 30 30s-13 30-30 30-30-13-30-30 13-30 30-30zm50 210c0 5-4 9-10 9h-80c-5 0-10-3-10-9v-20c0-5 4-11 10-11 5 0 10-3 10-9v-40c0-5-4-11-10-11-5 0-10-3-10-9v-20c0-5 4-11 10-11h60c5 0 10 5 10 11v80c0 5 4 9 10 9 5 0 10 5 10 11z"
+                                                    lwc-gj6nt2jq8l=""
+                                                  ></path>
+                                                </g></svg></lightning-primitive-icon
+                                            ><span class="slds-assistive-text" lwc-485vfn4rmof="">Help</span
+                                            ><span class="slds-assistive-text" data-help-text="" lwc-485vfn4rmof=""
+                                              >The numeric frequency indicates how often the work can occur.</span
+                                            >
+                                          </button></lightning-button-icon
+                                        >
+                                      </div></lightning-helptext
+                                    >
+                                    <div
+                                      lwc-71ftadcg0c7=""
+                                      class="slds-form-element__control slds-input-has-fixed-addon"
+                                      style="flex-direction: row; align-items: center"
+                                    >
+                                      <div lwc-71ftadcg0c7="">
+                                        <span class="slds-form-element__addon" lwc-71ftadcg0c7="">Every</span>
+                                      </div>
+                                      <div lwc-71ftadcg0c7="" style="flex: 1 1 0%">
+                                        <lightning-input
+                                          lwc-71ftadcg0c7=""
+                                          data-id="frequency"
+                                          data-test-id="e2e-frequency"
+                                          variant="label-hidden"
+                                          class="slds-form-element"
+                                          lwc-66unc5l95ad-host=""
+                                          ><lightning-primitive-input-simple
+                                            lwc-66unc5l95ad=""
+                                            exportparts="input-text, input-container, input, required"
+                                            lwc-enmikoh2qu-host=""
+                                            variant="label-hidden"
+                                            ><div lwc-enmikoh2qu="" part="input-text" populated="">
+                                              <label
+                                                lwc-enmikoh2qu=""
+                                                class="slds-form-element__label slds-no-flex slds-assistive-text"
+                                                for="input-128"
+                                                part="label"
+                                                ><slot lwc-enmikoh2qu="" name="label-end"
+                                                  ><slot
+                                                    lwc-66unc5l95ad=""
+                                                    name="label-end"
+                                                    slot="label-end"
+                                                  ></slot></slot
+                                              ></label>
+                                              <div
+                                                lwc-enmikoh2qu=""
+                                                class="slds-form-element__control slds-grow"
+                                                part="input-container"
+                                                type="text"
+                                              >
+                                                <input
+                                                  class="slds-input"
+                                                  part="input"
+                                                  lwc-enmikoh2qu=""
+                                                  aria-invalid="false"
+                                                  id="input-128"
+                                                  inputmode="decimal"
+                                                  type="text"
+                                                  aria-describedby="help-message-128"
+                                                />
+                                              </div>
+                                            </div>
+                                            <div
+                                              lwc-enmikoh2qu=""
+                                              class="slds-form-element__help"
+                                              id="help-message-128"
+                                              data-help-message=""
+                                              part="help-text"
+                                              aria-live="polite"
+                                            ></div></lightning-primitive-input-simple
+                                        ></lightning-input>
+                                      </div>
+                                      <div lwc-71ftadcg0c7="">
+                                        <span class="slds-form-element__addon" lwc-71ftadcg0c7="">month(s)</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div lwc-71ftadcg0c7="" class="slds-col slds-size_1-of-4 slds-grid slds-align-middle">
+                                  <div lwc-71ftadcg0c7="" class="slds-form-element" style="width: 100%">
+                                    <label class="slds-form-element__label" lwc-71ftadcg0c7="">Create Window</label
+                                    ><lightning-helptext lwc-71ftadcg0c7="" lwc-287jov2qseb-host=""
+                                      ><div lwc-287jov2qseb="" class="slds-form-element__icon" part="help-text">
+                                        <lightning-button-icon lwc-287jov2qseb="" variant="bare" lwc-485vfn4rmof-host=""
+                                          ><button
+                                            lwc-485vfn4rmof=""
+                                            class="slds-button slds-button_icon slds-button_icon-bare"
+                                            type="button"
+                                            part="button button-icon"
+                                          >
+                                            <lightning-primitive-icon
+                                              lwc-485vfn4rmof=""
+                                              exportparts="icon"
+                                              variant="bare"
+                                              lwc-gj6nt2jq8l-host=""
+                                              ><svg
+                                                focusable="false"
+                                                aria-hidden="true"
+                                                viewBox="0 0 520 520"
+                                                part="icon"
+                                                lwc-gj6nt2jq8l=""
+                                                data-key="info"
+                                                class="slds-button__icon"
+                                              >
+                                                <g lwc-gj6nt2jq8l="">
+                                                  <path
+                                                    d="M260 20a240 240 0 100 480 240 240 0 100-480zm0 121c17 0 30 13 30 30s-13 30-30 30-30-13-30-30 13-30 30-30zm50 210c0 5-4 9-10 9h-80c-5 0-10-3-10-9v-20c0-5 4-11 10-11 5 0 10-3 10-9v-40c0-5-4-11-10-11-5 0-10-3-10-9v-20c0-5 4-11 10-11h60c5 0 10 5 10 11v80c0 5 4 9 10 9 5 0 10 5 10 11z"
+                                                    lwc-gj6nt2jq8l=""
+                                                  ></path>
+                                                </g></svg></lightning-primitive-icon
+                                            ><span class="slds-assistive-text" lwc-485vfn4rmof="">Help</span
+                                            ><span class="slds-assistive-text" data-help-text="" lwc-485vfn4rmof=""
+                                              >How many days in advance is a job created?</span
+                                            >
+                                          </button></lightning-button-icon
+                                        >
+                                      </div></lightning-helptext
+                                    >
+                                    <div
+                                      lwc-71ftadcg0c7=""
+                                      class="slds-form-element__control slds-input-has-fixed-addon"
+                                      style="flex-direction: row; align-items: center"
+                                    >
+                                      <div lwc-71ftadcg0c7="" style="flex: 1 1 0%">
+                                        <lightning-input
+                                          lwc-71ftadcg0c7=""
+                                          data-id="createWindow"
+                                          data-test-id="e2e-create-window"
+                                          variant="label-hidden"
+                                          class="slds-form-element"
+                                          lwc-66unc5l95ad-host=""
+                                          ><lightning-primitive-input-simple
+                                            lwc-66unc5l95ad=""
+                                            exportparts="input-text, input-container, input, required"
+                                            lwc-enmikoh2qu-host=""
+                                            variant="label-hidden"
+                                            ><div lwc-enmikoh2qu="" part="input-text" populated="">
+                                              <label
+                                                lwc-enmikoh2qu=""
+                                                class="slds-form-element__label slds-no-flex slds-assistive-text"
+                                                for="input-133"
+                                                part="label"
+                                                >Create Window<slot lwc-enmikoh2qu="" name="label-end"
+                                                  ><slot
+                                                    lwc-66unc5l95ad=""
+                                                    name="label-end"
+                                                    slot="label-end"
+                                                  ></slot></slot
+                                              ></label>
+                                              <div
+                                                lwc-enmikoh2qu=""
+                                                class="slds-form-element__control slds-grow"
+                                                part="input-container"
+                                                type="text"
+                                              >
+                                                <input
+                                                  class="slds-input"
+                                                  part="input"
+                                                  lwc-enmikoh2qu=""
+                                                  aria-invalid="false"
+                                                  id="input-133"
+                                                  inputmode="decimal"
+                                                  type="text"
+                                                  aria-describedby="help-message-133"
+                                                />
+                                              </div>
+                                            </div>
+                                            <div
+                                              lwc-enmikoh2qu=""
+                                              class="slds-form-element__help"
+                                              id="help-message-133"
+                                              data-help-message=""
+                                              part="help-text"
+                                              aria-live="polite"
+                                            ></div></lightning-primitive-input-simple
+                                        ></lightning-input>
+                                      </div>
+                                      <div lwc-71ftadcg0c7="">
+                                        <span class="slds-form-element__addon" lwc-71ftadcg0c7="">day(s)</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div lwc-71ftadcg0c7="" class="slds-col slds-size_1-of-4 slds-grid slds-align-middle">
+                                  <div lwc-71ftadcg0c7="" class="slds-p-top_large">
+                                    <lightning-button-icon
+                                      lwc-71ftadcg0c7=""
+                                      class="slds-m-left_xx-small slds-hidden"
+                                      data-id="moveUp"
+                                      variant="border-filled"
+                                      lwc-485vfn4rmof-host=""
+                                      style="pointer-events: none"
+                                      ><button
+                                        lwc-485vfn4rmof=""
+                                        class="slds-button slds-button_icon slds-button_icon-border-filled"
+                                        disabled=""
+                                        title="Delete"
+                                        type="button"
+                                        part="button button-icon"
+                                      >
+                                        <lightning-primitive-icon
+                                          lwc-485vfn4rmof=""
+                                          exportparts="icon"
+                                          variant="bare"
+                                          lwc-mthmr6qcac-host=""
+                                          ><svg
+                                            focusable="false"
+                                            aria-hidden="true"
+                                            viewBox="0 0 520 520"
+                                            part="icon"
+                                            lwc-mthmr6qcac=""
+                                            data-key="chevronup"
+                                            class="slds-button__icon"
+                                          >
+                                            <g lwc-mthmr6qcac="">
+                                              <path
+                                                d="M44 342l205-207c6-6 16-6 22 0l205 207c6 6 6 16 0 22l-22 22c-6 6-16 6-22 0L271 222c-6-6-16-6-22 0L88 385c-6 6-16 6-22 0l-22-22c-5-6-5-15 0-21z"
+                                                lwc-mthmr6qcac=""
+                                              ></path>
+                                            </g></svg></lightning-primitive-icon
+                                        ><span class="slds-assistive-text" lwc-485vfn4rmof="">Delete</span>
+                                      </button></lightning-button-icon
+                                    ><lightning-button-icon
+                                      lwc-71ftadcg0c7=""
+                                      class="slds-m-left_xx-small slds-hidden"
+                                      data-id="moveDown"
+                                      variant="border-filled"
+                                      lwc-485vfn4rmof-host=""
+                                      style="pointer-events: none"
+                                      ><button
+                                        lwc-485vfn4rmof=""
+                                        class="slds-button slds-button_icon slds-button_icon-border-filled"
+                                        disabled=""
+                                        title="Delete"
+                                        type="button"
+                                        part="button button-icon"
+                                      >
+                                        <lightning-primitive-icon
+                                          lwc-485vfn4rmof=""
+                                          exportparts="icon"
+                                          variant="bare"
+                                          lwc-7nohpd9g9ec-host=""
+                                          ><svg
+                                            focusable="false"
+                                            aria-hidden="true"
+                                            viewBox="0 0 520 520"
+                                            part="icon"
+                                            lwc-7nohpd9g9ec=""
+                                            data-key="chevrondown"
+                                            class="slds-button__icon"
+                                          >
+                                            <g lwc-7nohpd9g9ec="">
+                                              <path
+                                                d="M476 178L271 385c-6 6-16 6-22 0L44 178c-6-6-6-16 0-22l22-22c6-6 16-6 22 0l161 163c6 6 16 6 22 0l161-162c6-6 16-6 22 0l22 22c5 6 5 15 0 21z"
+                                                lwc-7nohpd9g9ec=""
+                                              ></path>
+                                            </g></svg></lightning-primitive-icon
+                                        ><span class="slds-assistive-text" lwc-485vfn4rmof="">Delete</span>
+                                      </button></lightning-button-icon
+                                    ><lightning-button-icon
+                                      lwc-71ftadcg0c7=""
+                                      class="slds-m-left_xx-small"
+                                      data-testid="delete"
+                                      data-test-id="e2e-delete"
+                                      variant="border-filled"
+                                      lwc-485vfn4rmof-host=""
+                                      ><button
+                                        lwc-485vfn4rmof=""
+                                        class="slds-button slds-button_icon slds-button_icon-border-filled"
+                                        title="Delete"
+                                        type="button"
+                                        part="button button-icon"
+                                      >
+                                        <lightning-primitive-icon
+                                          lwc-485vfn4rmof=""
+                                          exportparts="icon"
+                                          variant="bare"
+                                          lwc-54ea36r85ci-host=""
+                                          ><svg
+                                            focusable="false"
+                                            aria-hidden="true"
+                                            viewBox="0 0 52 52"
+                                            part="icon"
+                                            lwc-54ea36r85ci=""
+                                            data-key="delete"
+                                            class="slds-button__icon"
+                                          >
+                                            <g lwc-54ea36r85ci="">
+                                              <path
+                                                d="M45.5 10H33V6a4 4 0 00-4-4h-6a4 4 0 00-4 4v4H6.5c-.8 0-1.5.7-1.5 1.5v3c0 .8.7 1.5 1.5 1.5h39c.8 0 1.5-.7 1.5-1.5v-3c0-.8-.7-1.5-1.5-1.5zM23 7c0-.6.4-1 1-1h4c.6 0 1 .4 1 1v3h-6zm18.5 13h-31c-.8 0-1.5.7-1.5 1.5V45a5 5 0 005 5h24a5 5 0 005-5V21.5c0-.8-.7-1.5-1.5-1.5zM23 42c0 .6-.4 1-1 1h-2c-.6 0-1-.4-1-1V28c0-.6.4-1 1-1h2c.6 0 1 .4 1 1zm10 0c0 .6-.4 1-1 1h-2c-.6 0-1-.4-1-1V28c0-.6.4-1 1-1h2c.6 0 1 .4 1 1z"
+                                                lwc-54ea36r85ci=""
+                                              ></path>
+                                            </g></svg></lightning-primitive-icon
+                                        ><span class="slds-assistive-text" lwc-485vfn4rmof="">Delete</span>
+                                      </button></lightning-button-icon
+                                    >
+                                  </div>
+                                </div>
+                              </div></c-st-maintenance-cycle-row
+                            >
+                          </div>
+                          <div strk-stmaintenancecycle_stmaintenancecycle="" class="slds-p-top_large">
+                            <lightning-button
+                              strk-stmaintenancecycle_stmaintenancecycle=""
+                              data-id="addButton"
+                              variant="neutral"
+                              lwc-40a585din3p-host=""
+                              ><button
+                                lwc-40a585din3p=""
+                                class="slds-button slds-button_neutral"
+                                aria-disabled="false"
+                                type="button"
+                                part="button"
+                                kx-scope="button-neutral"
+                                kx-type="ripple"
+                              >
+                                Add Cycle
+                              </button></lightning-button
+                            >
+                          </div>
+                        </div></c-st-maintenance-cycle
+                      >
+                    </div>
+                    <div strk-stmaintenanceprofile_stmaintenanceprofile="" class="slds-m-bottom_large">
+                      <c-st-maintenance-cycle
+                        strk-stmaintenanceprofile_stmaintenanceprofile=""
+                        data-id="maintenanceCycleGrouped"
+                        strk-stmaintenancecycle_stmaintenancecycle-host=""
+                        ><div strk-stmaintenancecycle_stmaintenancecycle="" class="slds-box containerGroup">
+                          <div strk-stmaintenancecycle_stmaintenancecycle="">
+                            <div class="groupTitle" strk-stmaintenancecycle_stmaintenancecycle="">
+                              Overriding Maintenance Cycles
+                            </div>
+                            <div class="groupText" strk-stmaintenancecycle_stmaintenancecycle="">
+                              When the Jobs are due within the same calendar month, their Job Tasks and other details
+                              will be selected from overriding Job Template.
+                            </div>
+                          </div>
+                          <div strk-stmaintenancecycle_stmaintenancecycle="" class="slds-p-top_large">
+                            <lightning-button
+                              strk-stmaintenancecycle_stmaintenancecycle=""
+                              data-id="addButton"
+                              variant="neutral"
+                              lwc-40a585din3p-host=""
+                              ><button
+                                lwc-40a585din3p=""
+                                class="slds-button slds-button_neutral"
+                                aria-disabled="false"
+                                type="button"
+                                part="button"
+                                kx-scope="button-neutral"
+                                kx-type="ripple"
+                              >
+                                Add Cycle
+                              </button></lightning-button
+                            >
+                          </div>
+                        </div></c-st-maintenance-cycle
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div></slot
+          >
+        </div>
+        <slot lwc-7eubp5ml88f="" class="slds-hide" name="footer"></slot></article
+    ></lightning-card></div
+></strk-st-maintenance-profile>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcase>
+    <step type="given">unscheduled jobs on Dispatch Central</step>
+    <step type="when">I click the Auto Schedule button</step>
+    <step type="then">all unscheduled jobs are scheduled</step>
+    <step type="and">each resource is assigned at least one job</step>
+</testcase>
