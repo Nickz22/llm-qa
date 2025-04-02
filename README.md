@@ -2,6 +2,9 @@
 
 This repository leverages Claude Sonnet 3.5 and the Model Context Protocol to turn a Jira description into a series of executable Puppeteer actions.
 
+<img width="955" alt="Screenshot 2025-04-02 at 15 36 37" src="https://github.com/user-attachments/assets/34e52049-6bea-4df1-82d8-c665187e47ab" />
+
+
 ## Prerequisites
 
 - Node.js (v14 or later)
